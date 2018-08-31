@@ -1,0 +1,23 @@
+
+xmonad.hs:37:24: warning: [-Wtabs]
+    Tab character found here, and in one further location.
+    Please use spaces instead.
+   |
+37 |   ,className =? "Emacs"            --> doShift "3:code"
+   |                        ^
+
+xmonad.hs:59:13: warning: [-Wdeprecations]
+    In the use of ‘defaultTheme’
+    (imported from XMonad.Layout.Tabbed, but defined in XMonad.Layout.Decoration):
+    Deprecated: "Use def (from Data.Default, and re-exported by XMonad.Layout.Decoration) instead."
+   |
+59 | tabConfig = defaultTheme {
+   |             ^^^^^^^^^^^^
+
+xmonad.hs:235:12: warning: [-Wdeprecations]
+    In the use of ‘defaultConfig’
+    (imported from XMonad, but defined in XMonad.Config):
+    Deprecated: "Use def (from Data.Default, and re-exported by XMonad and XMonad.Config) instead."
+    |
+235 | defaults = defaultConfig {
+    |            ^^^^^^^^^^^^^
